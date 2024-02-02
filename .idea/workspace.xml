@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="reserved keywords">
-      <change afterPath="$PROJECT_DIR$/src/Comments.kt" afterDir="false" />
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="coments">
+      <change afterPath="$PROJECT_DIR$/src/Println.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.PrintlnKt.executor": "Run",
     "Kotlin.ReservedKeywordsKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -36,7 +45,14 @@
     "onboarding.tips.debug.path": "/Users/qiantang/IdeaProjects/KotlinLearning/src/Main.kt"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.PrintlnKt">
+    <configuration name="PrintlnKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintlnKt" />
+      <module name="KotlinLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReservedKeywordsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReservedKeywordsKt" />
       <module name="KotlinLearning" />
@@ -48,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PrintlnKt" />
         <item itemvalue="Kotlin.ReservedKeywordsKt" />
       </list>
     </recent_temporary>
@@ -76,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706873331200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="coments">
+      <option name="closed" value="true" />
+      <created>1706873737784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706873737784</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reserved keywords" />
-    <option name="LAST_COMMIT_MESSAGE" value="reserved keywords" />
+    <MESSAGE value="coments" />
+    <option name="LAST_COMMIT_MESSAGE" value="coments" />
   </component>
 </project>
