@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="any type">
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="val and var">
+      <change afterPath="$PROJECT_DIR$/src/VarVsVal.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,7 @@
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.PrintlnKt.executor": "Run",
     "Kotlin.ReservedKeywordsKt.executor": "Run",
+    "Kotlin.VarVsValKt.executor": "Run",
     "Kotlin.VariablesKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -51,7 +53,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.VariablesKt">
+  <component name="RunManager" selected="Kotlin.VarVsValKt">
     <configuration name="PrintlnKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrintlnKt" />
       <module name="KotlinLearning" />
@@ -68,6 +70,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VarVsValKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VarVsValKt" />
+      <module name="KotlinLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VariablesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VariablesKt" />
       <module name="KotlinLearning" />
@@ -77,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.VarVsValKt" />
         <item itemvalue="Kotlin.VariablesKt" />
         <item itemvalue="Kotlin.PrintlnKt" />
         <item itemvalue="Kotlin.ReservedKeywordsKt" />
@@ -155,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706876300249</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="any type">
+      <option name="closed" value="true" />
+      <created>1706953641427</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706953641427</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +194,7 @@
     <MESSAGE value="variable" />
     <MESSAGE value="datatype" />
     <MESSAGE value="any type" />
-    <option name="LAST_COMMIT_MESSAGE" value="any type" />
+    <MESSAGE value="val and var" />
+    <option name="LAST_COMMIT_MESSAGE" value="val and var" />
   </component>
 </project>
