@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="const">
-      <change afterPath="$PROJECT_DIR$/src/Null.kt" afterDir="false" />
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="null">
+      <change afterPath="$PROJECT_DIR$/src/String.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Const.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Const.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
     "Kotlin.NullKt.executor": "Run",
     "Kotlin.PrintlnKt.executor": "Run",
     "Kotlin.ReservedKeywordsKt.executor": "Run",
+    "Kotlin.StringKt.executor": "Run",
     "Kotlin.VarVsValKt.executor": "Run",
     "Kotlin.VariablesKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -55,7 +55,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NullKt">
+  <component name="RunManager" selected="Kotlin.StringKt">
     <configuration name="NullKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NullKt" />
       <module name="KotlinLearning" />
@@ -70,11 +70,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservedKeywordsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReservedKeywordsKt" />
+    <configuration name="StringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringKt" />
       <module name="KotlinLearning" />
-      <option name="PROGRAM_PARAMETERS" value="foo bar" />
-      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StringKt" />
         <item itemvalue="Kotlin.NullKt" />
         <item itemvalue="Kotlin.VarVsValKt" />
         <item itemvalue="Kotlin.VariablesKt" />
         <item itemvalue="Kotlin.PrintlnKt" />
-        <item itemvalue="Kotlin.ReservedKeywordsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706954505098</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="null">
+      <option name="closed" value="true" />
+      <created>1706955005321</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706955005321</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +228,7 @@
     <MESSAGE value="any type" />
     <MESSAGE value="val and var" />
     <MESSAGE value="const" />
-    <option name="LAST_COMMIT_MESSAGE" value="const" />
+    <MESSAGE value="null" />
+    <option name="LAST_COMMIT_MESSAGE" value="null" />
   </component>
 </project>
