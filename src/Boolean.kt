@@ -16,6 +16,13 @@ fun main() {
     println(isAdult || isFemale)
     println(!isAdult)
 
+//    compare operator
+    val n1 = 10
+    val n2 = 20
+    println(n1>n2)
+    println(n1>=n2)
+    println(n1<n2)
+
 
 
 }
