@@ -2,7 +2,7 @@
 //it cannot be defined inside the function
 const val PI = 3.14
 
-val pi = getPi()
+val pi = getPiVal()
 //const cannot be depend on function
 //const val pi_2 = getPi()
 fun main() {
@@ -13,4 +13,4 @@ fun main() {
     println("Name: ${name}, Age: $age")
 }
 
-fun getPi(): Double = 3.22
+fun getPiVal(): Double = 3.22
