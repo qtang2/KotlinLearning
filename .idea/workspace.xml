@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="opera">
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="++ --">
+      <change afterPath="$PROJECT_DIR$/src/Boolean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlusSign.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArithmeticOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArithmeticOperator.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.ArithmeticOperatorKt.executor": "Run",
+    "Kotlin.BooleanKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.NullKt.executor": "Run",
+    "Kotlin.PlusSignKt.executor": "Run",
     "Kotlin.PrintlnKt.executor": "Run",
     "Kotlin.ReservedKeywordsKt.executor": "Run",
     "Kotlin.StringKt.executor": "Run",
@@ -56,9 +59,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ArithmeticOperatorKt">
+  <component name="RunManager" selected="Kotlin.BooleanKt">
     <configuration name="ArithmeticOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorKt" />
+      <module name="KotlinLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BooleanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BooleanKt" />
       <module name="KotlinLearning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,6 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlusSignKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlusSignKt" />
+      <module name="KotlinLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringKt" />
       <module name="KotlinLearning" />
@@ -78,27 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarVsValKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VarVsValKt" />
-      <module name="KotlinLearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VariablesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VariablesKt" />
-      <module name="KotlinLearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BooleanKt" />
+        <item itemvalue="Kotlin.PlusSignKt" />
         <item itemvalue="Kotlin.ArithmeticOperatorKt" />
         <item itemvalue="Kotlin.StringKt" />
         <item itemvalue="Kotlin.NullKt" />
-        <item itemvalue="Kotlin.VarVsValKt" />
-        <item itemvalue="Kotlin.VariablesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706958757201</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="++ --">
+      <option name="closed" value="true" />
+      <created>1706959325814</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706959325814</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +286,7 @@
     <MESSAGE value="string multiple line" />
     <MESSAGE value="string ref" />
     <MESSAGE value="opera" />
-    <option name="LAST_COMMIT_MESSAGE" value="opera" />
+    <MESSAGE value="++ --" />
+    <option name="LAST_COMMIT_MESSAGE" value="++ --" />
   </component>
 </project>
