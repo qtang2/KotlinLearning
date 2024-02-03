@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="datatype">
-      <change afterPath="$PROJECT_DIR$/src/Any.kt" afterDir="false" />
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="any type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706874984700</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="any type">
+      <option name="closed" value="true" />
+      <created>1706876300249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706876300249</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +175,7 @@
     <MESSAGE value="println prin" />
     <MESSAGE value="variable" />
     <MESSAGE value="datatype" />
-    <option name="LAST_COMMIT_MESSAGE" value="datatype" />
+    <MESSAGE value="any type" />
+    <option name="LAST_COMMIT_MESSAGE" value="any type" />
   </component>
 </project>

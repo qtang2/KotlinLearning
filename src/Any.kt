@@ -1,5 +1,5 @@
 fun main() {
-    var number: Any = 34
+    var number: Any = "aaaa"
     var name: String = "yyyyy"
 
 }
