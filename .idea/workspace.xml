@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="compare operator">
+      <change afterPath="$PROJECT_DIR$/src/WhenExpression.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boolean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boolean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Null.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Null.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     "Kotlin.StringKt.executor": "Run",
     "Kotlin.VarVsValKt.executor": "Run",
     "Kotlin.VariablesKt.executor": "Run",
+    "Kotlin.WhenExpressionKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -58,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BooleanKt">
+  <component name="RunManager" selected="Kotlin.WhenExpressionKt">
     <configuration name="ArithmeticOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorKt" />
       <module name="KotlinLearning" />
@@ -68,13 +70,6 @@
     </configuration>
     <configuration name="BooleanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BooleanKt" />
-      <module name="KotlinLearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NullKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NullKt" />
       <module name="KotlinLearning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,13 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhenExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WhenExpressionKt" />
+      <module name="KotlinLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.WhenExpressionKt" />
         <item itemvalue="Kotlin.BooleanKt" />
         <item itemvalue="Kotlin.PlusSignKt" />
         <item itemvalue="Kotlin.ArithmeticOperatorKt" />
         <item itemvalue="Kotlin.StringKt" />
-        <item itemvalue="Kotlin.NullKt" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706960947034</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="compare operator">
+      <option name="closed" value="true" />
+      <created>1707051908806</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1707051908806</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

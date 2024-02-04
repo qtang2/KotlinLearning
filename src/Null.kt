@@ -3,7 +3,7 @@ fun main() {
     var name: String = "yyyyy"
     println(name.uppercase())
 
-    var brand: String? = "aaaa" // need to put ? if variable can be null
+    var brand: String? = "aaaa" // need to put ? if variable
     println(brand?.uppercase())
 
     var brandNull: String? = null
