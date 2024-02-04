@@ -23,6 +23,32 @@ fun main() {
     println(n1>=n2)
     println(n1<n2)
 
+//    if is an expression instead of statement
+    val value = if(n1<n2){
+//        println(":)")
+        ":)"
+    }else if(n1==100){
+        println("???")
+        "???"
+    }else{
+        println(":(")
+        ":("
+    }
+
+    println(value)
+
+//    ternary
+//    in Java
+//    var r = n1>= n2 ? ":)" : ":("
+    val r = if(n1>=n2) ":)" else ":("
+    println("r ==> $r")
+
+    val r2 =
+        if(n1>=n2) ":)"
+        else if(n1==100) "???"
+        else ":("
+    println("r2 ==> $r")
+
 
 
 }
