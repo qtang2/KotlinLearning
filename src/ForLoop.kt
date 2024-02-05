@@ -34,6 +34,8 @@ fun main() {
     for (i in 5 downTo 1) println("reverse downTo $i")
     for (i in 5 downTo 1 step 2) println("reverse downTo step $i")
 
-
+    println("Loop strings")
+    val brand = "addfdsfd"
+    for(l in brand) println("string loop $l")
 
 }
