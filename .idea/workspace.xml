@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="loop string">
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="while loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ForLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForLoop.kt" afterDir="false" />
     </list>
@@ -355,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707128768961</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="while loop">
+      <option name="closed" value="true" />
+      <created>1707128956352</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1707128956352</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,7 +378,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reserved keywords" />
     <MESSAGE value="coments" />
     <MESSAGE value="println prin" />
     <MESSAGE value="variable" />
@@ -395,6 +402,7 @@
     <MESSAGE value="list indices" />
     <MESSAGE value="for with step and range" />
     <MESSAGE value="loop string" />
-    <option name="LAST_COMMIT_MESSAGE" value="loop string" />
+    <MESSAGE value="while loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="while loop" />
   </component>
 </project>

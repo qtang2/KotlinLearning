@@ -8,7 +8,7 @@ fun main() {
          println(n)
      }
 
-    val numbers: List<Int> = listOf(1,2,3,4)
+    val numbers: List<Int> = listOf(1,2,3,8,4)
     for( number in numbers) {
         println(number)
     }
@@ -47,5 +47,33 @@ fun main() {
         println("num $num")
         ++num
     }
+
+    var idx = 0
+    while(idx<brand.length) {
+        println("brand letter ${brand[idx]}")
+        ++idx
+    }
+
+    println("do while loop")
+    do {
+        println("do action")
+    }while (false)
+
+    println("loop break continue")
+
+    for (n in numbers) {
+        if(n%2==0){
+            continue
+        }
+
+        if(n > 6) {
+            break
+        }
+        println("n is ==> $n")
+
+
+    }
+
+//    for each cannot use break and continue keywords
 
 }
