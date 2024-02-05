@@ -6,6 +6,10 @@ fun main() {
     println(nameStrList[0])
     nameStrList[0] = "CCC"
     println(nameStrList.size)
+    println(names.get(2))
+    println(names.elementAt(0))
+    println(names.elementAt(0))
+    println(names.access)
     if ("hello" in nameStrList) {
         println("found")
     }else {
@@ -33,6 +37,19 @@ fun main() {
     newList.add("PPPPP")
     println(newList)
     println(newList.isEmpty())
+
+//list destructing  // never mixed types
+    val newList2 = mutableListOf<String>("aaa", "bbbb", "ddd","ggg")
+    val (one, two, _, four) = newList2 // _ means skip the value
+    println(newList2)
+    println("one => $one")
+    println("two => $two")
+    println("four => $four")
+
+    println(newList2.get(0))
+    println(newList2.elementAt(3))
+
+
 
 
 }
