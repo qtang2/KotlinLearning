@@ -38,4 +38,14 @@ fun main() {
     val brand = "addfdsfd"
     for(l in brand) println("string loop $l")
 
+    println("for each")
+    list.forEach { println(it) }
+
+    println("while loop")
+    var num = 1
+    while(num<=5) {
+        println("num $num")
+        ++num
+    }
+
 }
