@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="when expre2">
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="null when">
+      <change afterPath="$PROJECT_DIR$/src/Arrays.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WhenExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/WhenExpression.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.ArithmeticOperatorKt.executor": "Run",
+    "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.BooleanKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.NullKt.executor": "Run",
@@ -59,9 +60,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.WhenExpressionKt">
+  <component name="RunManager" selected="Kotlin.ArraysKt">
     <configuration name="ArithmeticOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorKt" />
+      <module name="KotlinLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
       <module name="KotlinLearning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,13 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringKt" />
-      <module name="KotlinLearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WhenExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WhenExpressionKt" />
       <module name="KotlinLearning" />
@@ -97,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.WhenExpressionKt" />
         <item itemvalue="Kotlin.BooleanKt" />
         <item itemvalue="Kotlin.PlusSignKt" />
         <item itemvalue="Kotlin.ArithmeticOperatorKt" />
-        <item itemvalue="Kotlin.StringKt" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707052979998</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="null when">
+      <option name="closed" value="true" />
+      <created>1707125491899</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1707125491899</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +340,7 @@
     <MESSAGE value="compare operator" />
     <MESSAGE value="when expre" />
     <MESSAGE value="when expre2" />
-    <option name="LAST_COMMIT_MESSAGE" value="when expre2" />
+    <MESSAGE value="null when" />
+    <option name="LAST_COMMIT_MESSAGE" value="null when" />
   </component>
 </project>
