@@ -9,7 +9,6 @@ fun main() {
     println(names.get(2))
     println(names.elementAt(0))
     println(names.elementAt(0))
-    println(names.access)
     if ("hello" in nameStrList) {
         println("found")
     }else {
