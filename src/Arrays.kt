@@ -17,4 +17,22 @@ fun main() {
     nullArr[3] = "hello"
     nullArr.fill("&")
     println(nullArr.contentToString())
+
+//    list are expandable , array is not
+    val list: List<String> = listOf("aaa", "bbbb", "ddd","ggg")
+    println(list)
+    println(list.size)
+    println(list.contains("bbbb"))
+    println(list.first())
+    println(list.last())
+    println(list.indexOf("ddd"))
+//    add a new item, need to create mutable list
+    val newList = mutableListOf("aaa", "bbbb", "ddd","ggg")
+    newList.remove("ggg")
+    println(newList)
+    newList.add("PPPPP")
+    println(newList)
+    println(newList.isEmpty())
+
+
 }
