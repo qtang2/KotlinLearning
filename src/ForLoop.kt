@@ -22,6 +22,18 @@ fun main() {
         println("index: $index, ${letters[index]}")
     }
 
+    println("loop range")
+    for(i in 1..10){
+        println(i)
+    }
+
+    for(i in 1..10 step 2){
+        println("step ==> $i")
+    }
+
+    for (i in 5 downTo 1) println("reverse downTo $i")
+    for (i in 5 downTo 1 step 2) println("reverse downTo step $i")
+
 
 
 }
