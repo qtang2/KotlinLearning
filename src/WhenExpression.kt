@@ -40,5 +40,13 @@ fun main() {
         else -> println("Adult")
     }
 
+//    when boolean is null, have to perform == true/false check
+    val isAdult:Boolean? = null
+    if(isAdult == true) {
+        println("not null true")
+    }else {
+        println("false or null")
+    }
+
 
 }
