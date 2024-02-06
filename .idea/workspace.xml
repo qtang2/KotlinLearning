@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="break continue">
-      <change afterPath="$PROJECT_DIR$/src/Function.kt" afterDir="false" />
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Function.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707129534348</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="function">
+      <option name="closed" value="true" />
+      <created>1707214498063</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707214498063</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,7 +395,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="println prin" />
     <MESSAGE value="variable" />
     <MESSAGE value="datatype" />
     <MESSAGE value="any type" />
@@ -412,6 +419,7 @@
     <MESSAGE value="loop string" />
     <MESSAGE value="while loop" />
     <MESSAGE value="break continue" />
-    <option name="LAST_COMMIT_MESSAGE" value="break continue" />
+    <MESSAGE value="function" />
+    <option name="LAST_COMMIT_MESSAGE" value="function" />
   </component>
 </project>
