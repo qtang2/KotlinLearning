@@ -21,6 +21,11 @@ fun main() {
     val doubledNum = double(10)
     println(doubledNum)
 
+    val (v1,v2) = returnTwoValues()
+    println("v1 $v1, v2 $v2")
+    val (t1,t2,t3) = returnThreeValues()
+    println("t1 $t1, t2 $t2, t3 $t3")
+
 }
 //Unit is equal to void in Java
 fun greet(name: String, age:Int = -1): Unit {
@@ -43,8 +48,24 @@ fun functionAsArgs(bar: () -> Unit = {} ) {
     bar()
 }
 
+//if there is { } for the function, need to specify return type if the return type is not Unit
 fun double(n: Int): Int {
     return n*2
 }
 //if function only have one return statement, can define the function as below
 fun double2(n: Int): Int  = n*2
+//fun double2(n: Int)  = n*2
+
+// return multiple values
+fun returnTwoValues(): Pair<String, Int> =
+    "Amy" to 20
+    // Pair("Amy", 20)
+
+fun returnThreeValues(): Triple<String, Int, Char> {
+    return Triple(
+        "Amy",
+        39,
+        'Z'
+    )
+}
+
