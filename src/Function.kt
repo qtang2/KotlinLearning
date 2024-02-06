@@ -23,6 +23,8 @@ fun greet(name: String, age:Int = -1): Unit {
     println("Hello $name")
     if(age == -1){
         println("Age default value is $age")
+//        exit the method
+        return
     }
     if(age>=18){
         println("is adult")
