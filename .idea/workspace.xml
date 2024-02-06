@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="return val multiple">
-      <change afterPath="$PROJECT_DIR$/src/Classes.kt" afterDir="false" />
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
     "Kotlin.ArithmeticOperatorKt.executor": "Run",
     "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.BooleanKt.executor": "Run",
+    "Kotlin.ClassesKt.executor": "Run",
     "Kotlin.ForLoopKt.executor": "Run",
     "Kotlin.FunctionKt.executor": "Debug",
     "Kotlin.MainKt.executor": "Run",
@@ -62,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FunctionKt">
+  <component name="RunManager" selected="Kotlin.ClassesKt">
     <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysKt" />
       <module name="KotlinLearning" />
@@ -70,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BooleanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BooleanKt" />
+    <configuration name="ClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassesKt" />
       <module name="KotlinLearning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ClassesKt" />
         <item itemvalue="Kotlin.FunctionKt" />
         <item itemvalue="Kotlin.ForLoopKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.WhenExpressionKt" />
-        <item itemvalue="Kotlin.BooleanKt" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707216324591</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="class">
+      <option name="closed" value="true" />
+      <created>1707218042415</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1707218042415</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="const" />
     <MESSAGE value="null" />
     <MESSAGE value="string" />
     <MESSAGE value="string 2" />
@@ -460,6 +468,7 @@
     <MESSAGE value="return" />
     <MESSAGE value="return val" />
     <MESSAGE value="return val multiple" />
-    <option name="LAST_COMMIT_MESSAGE" value="return val multiple" />
+    <MESSAGE value="class" />
+    <option name="LAST_COMMIT_MESSAGE" value="class" />
   </component>
 </project>
