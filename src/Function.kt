@@ -4,19 +4,23 @@ fun main() {
     greet(age=10, name="AmySis")
     greet( name="Aya")
 
-    foo( bar = {
+    functionAsArgs( bar = {
         println("bar func 1")
     })
-    foo( bar = {
+    functionAsArgs( bar = {
         println("bar func 2")
     })
 
-//    can invoke the foo function without () as below
+//    can invoke the functionAsArgs function without () as below
 //    but this will only work when the function argument is the last argument
-    foo {
+    functionAsArgs {
         println("bar function 3")
     }
-    foo()
+    functionAsArgs()
+
+    val doubledNum = double(10)
+    println(doubledNum)
+
 }
 //Unit is equal to void in Java
 fun greet(name: String, age:Int = -1): Unit {
@@ -34,7 +38,13 @@ fun greet(name: String, age:Int = -1): Unit {
 }
 
 //pass function as argument
-fun foo(bar: () -> Unit = {} ) {
+fun functionAsArgs(bar: () -> Unit = {} ) {
     println("bar function-------")
     bar()
 }
+
+fun double(n: Int): Int {
+    return n*2
+}
+//if function only have one return statement, can define the function as below
+fun double2(n: Int): Int  = n*2
