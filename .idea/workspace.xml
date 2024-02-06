@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="while loop">
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="break continue">
+      <change afterPath="$PROJECT_DIR$/src/Function.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForLoop.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
     "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.BooleanKt.executor": "Run",
     "Kotlin.ForLoopKt.executor": "Run",
+    "Kotlin.FunctionKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.NullKt.executor": "Run",
     "Kotlin.PlusSignKt.executor": "Run",
@@ -61,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ForLoopKt">
+  <component name="RunManager" selected="Kotlin.FunctionKt">
     <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysKt" />
       <module name="KotlinLearning" />
@@ -83,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlusSignKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlusSignKt" />
+    <configuration name="FunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionKt" />
       <module name="KotlinLearning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunctionKt" />
         <item itemvalue="Kotlin.ForLoopKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.WhenExpressionKt" />
         <item itemvalue="Kotlin.BooleanKt" />
-        <item itemvalue="Kotlin.PlusSignKt" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707128956352</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="break continue">
+      <option name="closed" value="true" />
+      <created>1707129534348</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1707129534348</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +387,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="coments" />
     <MESSAGE value="println prin" />
     <MESSAGE value="variable" />
     <MESSAGE value="datatype" />
@@ -403,6 +411,7 @@
     <MESSAGE value="for with step and range" />
     <MESSAGE value="loop string" />
     <MESSAGE value="while loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="while loop" />
+    <MESSAGE value="break continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="break continue" />
   </component>
 </project>
