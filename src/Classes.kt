@@ -1,37 +1,50 @@
 fun main() {
 //objects
-    val tv = SmartDevice()
-    tv.price = 1000.0
-    tv.brand = "TCL"
+    val tv = SmartDevice(
+        "TCL",
+        100.0
+    )
+//    tv.price = 1000.0
+//    tv.brand = "TCL"
     println("tv ${tv.brand}, ${tv.price}")
-    val phone = SmartDevice()
-    phone.price = 100.0
-    phone.brand = "Apple"
+    val phone = SmartDevice("Apple", 890.0)
+//    phone.price = 100.0
+//    phone.brand = "Apple"
 //    tv.price1 = 10.0 cannot do this as val is immutable
     println("phone ${phone.brand}, ${phone.price}")
     println("phone state ${phone.getDeviceState()}")
     phone.turnOn()
     println("phone state ${phone.getDeviceState()}")
-    
+
 
 }
 
 //blueprint
-class SmartDevice {
-//    properties - variables
-    var brand: String = ""
-////    default getter: get() = field
-//        get() = field
-//        get() = "foo"
-////    default getter
-//        set(value) {
-//            field = value
-//        }
-    var price: Double = 0.0
-//        get() = "foo"
-//    val price1: Double = 0.0
-
+// can save the keyword constructor
+class SmartDevice (
+//class SmartDevice constructor(
+    var brand: String,
+    var price: Double,
     var isSwitchedOn: Boolean = false
+//    brand: String,
+//    price: Double,
+//    isSwitchedOn: Boolean = false
+    ) {
+//    properties - variables
+//    can declare inside the constructor
+//    var brand = brand
+//////    default getter: get() = field
+////        get() = field
+////        get() = "foo"
+//////    default getter
+////        set(value) {
+////            field = value
+////        }
+//    var price= price
+////        get() = "foo"
+////    val price1: Double = 0.0
+//
+//    var isSwitchedOn = isSwitchedOn
 
     fun getDeviceState() = isSwitchedOn
 
