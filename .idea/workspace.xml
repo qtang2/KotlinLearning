@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="return val">
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="return val multiple">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Function.kt" afterDir="false" />
     </list>
@@ -404,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707215556418</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="return val multiple">
+      <option name="closed" value="true" />
+      <created>1707216126100</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1707216126100</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="val and var" />
     <MESSAGE value="const" />
     <MESSAGE value="null" />
     <MESSAGE value="string" />
@@ -444,6 +451,7 @@
     <MESSAGE value="function as args" />
     <MESSAGE value="return" />
     <MESSAGE value="return val" />
-    <option name="LAST_COMMIT_MESSAGE" value="return val" />
+    <MESSAGE value="return val multiple" />
+    <option name="LAST_COMMIT_MESSAGE" value="return val multiple" />
   </component>
 </project>

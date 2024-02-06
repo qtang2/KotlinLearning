@@ -26,6 +26,11 @@ fun main() {
     val (t1,t2,t3) = returnThreeValues()
     println("t1 $t1, t2 $t2, t3 $t3")
 
+    println()
+
+    val s = returnString()
+    println(s)
+
 }
 //Unit is equal to void in Java
 fun greet(name: String, age:Int = -1): Unit {
@@ -68,4 +73,6 @@ fun returnThreeValues(): Triple<String, Int, Char> {
         'Z'
     )
 }
+
+fun returnString(): String = "return string value"
 
