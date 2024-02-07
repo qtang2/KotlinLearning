@@ -6,7 +6,8 @@ fun main() {
     )
 //    tv.price = 1000.0
 //    tv.brand = "TCL"
-    println("tv ${tv.brand}, ${tv.price}")
+    print(tv)
+//    println("tv ${tv.brand}, ${tv.price}")
     val phone = SmartDevice("Apple", 890.0)
 //    phone.price = 100.0
 //    phone.brand = "Apple"
@@ -67,6 +68,10 @@ class SmartDevice (
     fun turnOff() {
         isSwitchedOn = false
         println("$brand Turn Off")
+    }
+
+    override fun toString(): String {
+        return "SmartDevice(brand=$brand, price=$price, isSwitchedOn=$isSwitchedOn)"
     }
 
 

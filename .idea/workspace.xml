@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="constructor">
+    <list default="true" id="1e9f4386-ff88-4afa-87b4-4b25abc7881b" name="Changes" comment="multi constructor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes.kt" afterDir="false" />
     </list>
@@ -445,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707219629851</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="multi constructor">
+      <option name="closed" value="true" />
+      <created>1707301825832</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1707301825832</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="string 2" />
     <MESSAGE value="string multiple line" />
     <MESSAGE value="string ref" />
     <MESSAGE value="opera" />
@@ -485,6 +492,7 @@
     <MESSAGE value="class" />
     <MESSAGE value="properties and methods" />
     <MESSAGE value="constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor" />
+    <MESSAGE value="multi constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="multi constructor" />
   </component>
 </project>
