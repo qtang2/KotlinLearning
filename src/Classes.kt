@@ -16,6 +16,10 @@ fun main() {
     phone.turnOn()
     println("phone state ${phone.getDeviceState()}")
 
+    val tv2 = SmartDevice()
+
+    val phone2 = SmartDevice("Samsung")
+
 
 }
 
@@ -23,9 +27,9 @@ fun main() {
 // can save the keyword constructor
 class SmartDevice (
 //class SmartDevice constructor(
-    var brand: String,
-    var price: Double,
-    var isSwitchedOn: Boolean = false
+    var brand: String?,
+    var price: Double?,
+    var isSwitchedOn: Boolean? = false
 //    brand: String,
 //    price: Double,
 //    isSwitchedOn: Boolean = false
@@ -45,6 +49,13 @@ class SmartDevice (
 ////    val price1: Double = 0.0
 //
 //    var isSwitchedOn = isSwitchedOn
+
+//    multiple constructor
+//    call the main constructor, this represents the main constructor
+    constructor() : this("", 9.0)
+
+//    another way of giving default value of the properties
+    constructor(brand: String): this(null, 10.0)
 
     fun getDeviceState() = isSwitchedOn
 
